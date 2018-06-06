@@ -5,7 +5,8 @@ The paper for task description can be checked at [The Argument Reasoning Compreh
 
 The official result (of 22 participants) can be checked at [here](https://github.com/habernal/semeval2018-task12-results)
 
-Our paper name is "GIST at SemEval-2018 Task 12: A network transferring inference knowledge to Argument Reasoning Comprehension task"
+Our paper name is "GIST at SemEval-2018 Task 12: A network transferring inference knowledge to Argument Reasoning Comprehension task" at 
+[here](http://www.aclweb.org/anthology/S18-1122)
 
 ## Code description
 We changed original raw data into preprocessed data in advance, so this code use the preprocessed data.
@@ -22,5 +23,6 @@ Window 10, python 2.7
 ## Example
 ![command display example](./image/display.JPG)
 
-## Upload Schedule
-We will upload our code after our paper is uploaded at http://www.aclweb.org/anthology/S/S18/ (SemEval 2018)
+## Upload Problem
+We encountered unexpected problem when uploaded our pre-trained parameters file (snli_pretraining_params.bin).
+So, we will fix it and re-upload soon.
