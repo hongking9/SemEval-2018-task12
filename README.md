@@ -3,10 +3,9 @@ This repository contains winner system (GIST team) code for SemEval 2018 task 12
 
 The paper for task description can be checked at [The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants](https://arxiv.org/pdf/1708.01425.pdf) by Habernal et al. (2018).
 
-The official result (of 22 participants) can be checked at [here](https://github.com/habernal/semeval2018-task12-results)
+Our paper is [GIST at SemEval-2018 Task 12: A network transferring inference knowledge to Argument Reasoning Comprehension task](http://www.aclweb.org/anthology/S18-1122)
 
-Our paper name is "GIST at SemEval-2018 Task 12: A network transferring inference knowledge to Argument Reasoning Comprehension task" at 
-[here](http://www.aclweb.org/anthology/S18-1122)
+The official result (of 22 participants) can be checked at [here](https://github.com/habernal/semeval2018-task12-results)
 
 ## Code description
 We changed original raw data into preprocessed data in advance, so this code use the preprocessed data.
