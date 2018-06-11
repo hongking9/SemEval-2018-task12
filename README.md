@@ -22,6 +22,4 @@ Window 10, python 2.7
 ## Example
 ![command display example](./image/display.JPG)
 
-## Upload Problem
-We encountered unexpected problem when uploaded our pre-trained parameters file (snli_pretraining_params.bin).
-So, we will fix it and re-upload soon.
+## 
