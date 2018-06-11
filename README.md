@@ -21,5 +21,4 @@ Window 10, python 2.7
 
 ## Example
 ![command display example](./image/display.JPG)
-
-## 
+now is available!
