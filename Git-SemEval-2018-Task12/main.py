@@ -192,9 +192,10 @@ final_output = theano.function([l_in_sent.input_var,   r_in_sent.input_var,
                                 L.get_output(sent_vec),
                                 allow_input_downcast=True, on_unused_input='ignore')
 
-load_param = fc.load_all(data_path+'snli_pretraining_params.bin')
-mod_param = load_param[:71]
-mod_param[0] = emW
+# Pre-trained ESIM parameters
+load_param = fc.load_all(data_path+'nli_pretraining_params.bin')
+mod_param = load_param
+mod_param.insert(0,emW)
 L.set_all_param_values(l_lstm_final,mod_param)
 L.set_all_param_values(r_lstm_final,mod_param)
 
